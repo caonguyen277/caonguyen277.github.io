@@ -123,6 +123,10 @@ h1 {
 }
 
 .recipe a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
   font-size: 1.8rem;
   color: #40b48e;
 }
@@ -156,4 +160,7 @@ h1 {
 .ingredient-weight {
   color: #40b48e;
   font-size: 1.3rem;
+}
+button, input[type="submit"]{
+  cursor: pointer;
 }
